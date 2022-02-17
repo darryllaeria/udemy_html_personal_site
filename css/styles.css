@@ -18,3 +18,18 @@
         border-width: 5px;
         width: 5%;
     }
+
+    /* Reference for 36. The Anatomy of CSS syntax */
+    /* img {
+        background-color: #EAF6F6;
+    } */
+
+    /* Reference for 37. CSS Selectors, class selectors */
+    .round_img {
+        background-color: #EAF6F6;
+    }
+
+    .original_img {
+        height: 100px;
+        width: 100px;
+    }
