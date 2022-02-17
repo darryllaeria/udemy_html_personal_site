@@ -33,3 +33,13 @@
         height: 100px;
         width: 100px;
     }
+
+    /* Reference for 38. Classes vs. Ids, id selectors */
+    #name {
+        /* color: blue; */
+    }
+
+    .round_img:hover {
+        background-color: red;
+        border-radius: 100%;
+    }
