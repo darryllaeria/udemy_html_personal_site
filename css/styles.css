@@ -31,7 +31,15 @@ h3 {
 }
 
 div {
-    background-color: #E4F9F5;
+    /* background-color: #E4F9F5; */
+}
+
+hr {
+    border-color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
 }
 
 .top-container {
@@ -41,15 +49,15 @@ div {
 }
 
 .middle-container {
-    /* background-color: red;
-    height: 200px;
+    background-color: white;
+    /* height: 200px;
     width: 200px; */
 }
 
 .bottom-container {
-    /* background-color: blue;
-    height: 200px;
-    width: 200px; */
+    background-color: white;
+    /* height: 200px;
+    width: 200px;*/
 }
 
 .pro {
