@@ -1,77 +1,103 @@
 body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    /* font-family: "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif; */
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif; */
 }
 
 h1 {
-    margin: 0;
-    /* width: 10%; */
-    /* margin: 0 auto 0 auto; */
-    font-family: 'Sacramento', cursive;
-    /* font-size: 100%; 16px */
-    /* font-size: 90px; */
-    /* font-size: 562.5%; */
-    font-size: 5.625em;
-    margin: 50px auto 0 auto; /* 2.6rem */
-    color: #11999E;
-    line-height: 200%;
+  margin: 0;
+  /* width: 10%; */
+  /* margin: 0 auto 0 auto; */
+  font-family: "Sacramento", cursive;
+  /* font-size: 100%; 16px */
+  /* font-size: 90px; */
+  /* font-size: 562.5%; */
+  font-size: 5.625em;
+  margin: 50px auto 0 auto; /* 2.6rem */
+  color: #11999e;
+  line-height: 200%;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #11999E;
-    font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #11999e;
+  font-weight: normal;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
 
 div {
-    /* background-color: #E4F9F5; */
+  /* background-color: #E4F9F5; */
 }
 
 hr {
-    border-color: gray;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    width: 5%;
+  border-color: gray;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
 }
 
 .top-container {
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-    background-color: white;
-    /* height: 200px;
+  background-color: white;
+  /* height: 200px;
     width: 200px; */
 }
 
 .bottom-container {
-    background-color: white;
-    /* height: 200px;
+  background-color: white;
+  /* height: 200px;
     width: 200px;*/
 }
 
 .pro {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-bpms {
+    /* width: 35%; */
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-android {
+    /* width: 35%; */
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-web {
+    /* width: 35%; */
+    float: right;
+    margin-left: 30px;
 }
