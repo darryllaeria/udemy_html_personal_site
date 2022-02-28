@@ -16,12 +16,14 @@ h1 {
     font-size: 5.625em;
     margin: 50px auto 0 auto; /* 2.6rem */
     color: #11999E;
+    line-height: 200%;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #11999E;
+    font-weight: normal;
 }
 
 h3 {
